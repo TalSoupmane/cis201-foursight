@@ -1,0 +1,61 @@
+/* All included in the CSS cheat sheet Dr. */
+body {
+    background-color: #05141b; 
+    color: #ffffff; 
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(rgba(5, 20, 27, 0.88), rgba(5, 20, 27, 0.88)), url('../images/bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar {
+    background-color: transparent !important;
+    border-bottom: 2px solid #5a189a;
+}
+
+.game-box {
+    background: rgba(5, 20, 27, 0.7); 
+    border: 1px solid #5a189a;
+    border-radius: 12px;
+}
+
+.btn-primary {
+    background-color: #017f8d !important;
+    border: none !important;
+}
+
+.game-image {
+    height: 150px;
+    border: 2px solid #5a189a;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.form-control {
+    background-color: transparent;
+    border: 1px solid #017f8d;
+    color: #ffffff;
+}
+
+.circle-img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 3px solid #017f8d;
+    box-shadow: 0 0 15px rgba(1, 127, 141, 0.5);
+}
+
+.dev-link {
+    color: #017f8d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.dev-link:hover {
+    color: #5a189a;
+    text-decoration: underline;
+}
+
+.italic {
+    font-style: italic;
+}
